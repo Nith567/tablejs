@@ -1,0 +1,10 @@
+{
+  "extensions": ["js"],
+  "timeout": 5000,
+  "spec": "test/*.test.js",
+  "file": ["test/setup.js"],
+  "node-option": [
+    "experimental-specifier-resolution=node",
+    "experimental-fetch"
+  ]
+}
